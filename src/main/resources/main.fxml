@@ -1,0 +1,15 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<GridPane fx:id="mainGrid" fx:controller="sample.controllers.MainController"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <ImageView fx:id="mainImage" fitWidth="100" fitHeight="100"/>
+    <Label fx:id="taklabel"/>
+    <ImageView fx:id="mainImage2" fitWidth="100" fitHeight="100"/>
+    <Button fx:id="playButton" prefWidth="90" prefHeight="50" onAction="#play" text="Play"/>
+    <Button fx:id="closeButton" prefWidth="90" prefHeight="50" onAction="#closeProgram" text="Exit"/>
+</GridPane>
